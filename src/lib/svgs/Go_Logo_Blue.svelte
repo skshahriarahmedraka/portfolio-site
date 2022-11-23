@@ -1,7 +1,7 @@
 
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg class={$$props.class} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 205.4 76.7" style="enable-background:new 0 0 205.4 76.7;" xml:space="preserve">
-<style type="text/css">
+<style lang="css">
 	.st0{fill:#00ACD7;}
 </style>
 <g>
