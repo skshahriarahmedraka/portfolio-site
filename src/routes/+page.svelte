@@ -19,7 +19,7 @@
 	import Contact from '$lib/contact/index.svelte';
 	import Projects from '$lib/projects/index.svelte';
 	import Resume from '$lib/resume/index.svelte';
-	import { backInOut, linear } from 'svelte/easing';
+	import { backInOut, elasticInOut, linear } from 'svelte/easing';
 
 	const imgUrl = new URL('../lib/images/f1.png', import.meta.url).href;
 	let li = ['Aboutme', 'Resume', 'Projects', 'Blog', 'Contact'];
@@ -105,17 +105,24 @@
 							'_blank'
 						);
 					}}
-					transition:slide={{ duration: 2000, easing: elasticOut }}
+					transition:slide={{ duration: 2000, easing: linear }}
 					class="group flex  h-fit w-full flex-row space-x-4  hover:cursor-pointer sm:ml-1 sm:w-fit md:ml-1 md:w-fit lg:ml-2 lg:w-fit  "
 				>
-					<div
-						class="  xs:w-[48px]  ml-3  flex  h-[48px] w-[56px] items-center justify-center rounded-2xl  xl:group-hover:hidden "
-						style=" background-color: #212123; box-shadow: -2px -2px 4px 0 rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(255, 255, 255, 0.25)"
-					>
-						<Attherate2 class="xl:group-hover:hidden " />
-					</div>
+				<!-- {#if ! window.matchMedia("(max-width: 1250px)").matches} -->
+					 <!-- content here -->
+					 <div
+					 transition:slide={{ duration: 2000, easing: linear }}
+						 class="  xs:w-[48px]  ml-3  flex  h-[48px] w-[56px] items-center justify-center rounded-2xl xl:group-hover:transition-all xl:group-hover:ease-in-out xl:group-hover:duration-500  xl:group-hover:hidden "
+						 style=" background-color: #212123; box-shadow: -2px -2px 4px 0 rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(255, 255, 255, 0.25)"
+					 >
+						 <Attherate2
+						 
+						 class="xl:group-hover:hidden   " />
+					 </div>
+				<!-- {/if} -->
 
-					<div class="	flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
+					<div
+					transition:slide={{ duration: 2000, easing: linear }} class=" h-[48px]	flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
 						<p class="  font-OpenSans text-base  font-semibold">Email :</p>
 						<p class=" font-Poppins text-sm font-thin  ">skshahriarahmedraka@gmail.com</p>
 					</div>
@@ -140,7 +147,7 @@
 					<div
 						class="
 
-					flex w-fit flex-col overflow-hidden text-[#fafafa]   "
+					flex w-fit flex-col overflow-hidden text-[#fafafa] h-[48px]  "
 					>
 						<p class="  font-OpenSans text-base font-semibold">Github :</p>
 						<p class=" font-Poppins text-sm font-thin  ">github.com/skshahriarahmedraka</p>
@@ -161,7 +168,7 @@
 						<Message2 />
 					</div>
 
-					<div class="	flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
+					<div class="h-[48px]	flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
 						<p class="  font-OpenSans text-base font-semibold">Telegram :</p>
 						<p class=" font-Poppins text-sm font-thin  ">t.me/shahriarraka</p>
 					</div>
@@ -181,7 +188,7 @@
 						<Linkedin />
 					</div>
 
-					<div class="	flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
+					<div class="	h-[48px] flex w-fit flex-col overflow-hidden text-[#fafafa]   ">
 						<p class="  font-OpenSans text-base font-semibold">Linkedin :</p>
 						<p class=" font-Poppins text-sm font-thin line-clamp-1  ">
 							linkedin.com/in/shahriarraka
@@ -203,7 +210,7 @@
 						<Upwork />
 					</div>
 
-					<div class="	flex w-full flex-col overflow-hidden text-[#fafafa]   ">
+					<div class="h-[48px]	flex w-full flex-col overflow-hidden text-[#fafafa]   ">
 						<p class="  font-OpenSans text-base font-semibold">Upwork :</p>
 						<p class=" font-Poppins overflow-hidden text-sm  font-thin line-clamp-1 ">
 							upwork.com/o/profiles/users/~0107ef3405bffbe57e/
@@ -225,7 +232,7 @@
 						<Stackoverflow />
 					</div>
 
-					<div class="	flex w-fit flex-col overflow-hidden text-[#fafafa]  ">
+					<div class="h-[48px]	flex w-fit flex-col overflow-hidden text-[#fafafa]  ">
 						<p class="  font-OpenSans text-base font-semibold">StackOverflow :</p>
 						<p class=" font-Poppins text-sm font-thin line-clamp-1  ">
 							stackoverflow.com/users/12216779/
