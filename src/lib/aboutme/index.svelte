@@ -55,19 +55,18 @@ import Database from '$lib/svgs/database.svelte';
 	</p>
 	<p class="ml-8 h-fit w-[90%] font-OpenSans text-[#fafafa] xs:text-sm xs:ml-4 ">
 		Here are my skills and strengths:<br />
-		✓ Expert in <b>Golang</b> <br />
-		✓ Expert in <b>Gorilla Mux</b> , <b>Gin</b> Framework & <b>Fiber</b> framework (using Golang)<br
-		/>
-		✓ Expert in <b>WebAssembly</b> (using Golang) <br />
-		✓ Expert in database design, development & optimization (<b>PostgreSQL</b>, <b>MySQL</b>,
-		<b>MongoDB</b>
-		, <b>Redis</b>)<br />
-		✓ Expert in ( <b>Grpc</b>, <b>protocol buffer</b> )<br />
+		⭐️ Expert in Software Development Using <b>Golang</b> <br />
+		⭐️ Expert in <b>Gorilla Mux</b> , <b>Gin</b> Framework & <b>Fiber</b> framework (using Golang)<br/>
+		⭐️ Expert in  <b class="">Docker</b>, <b class="">Kafka</b>, <b class="">Jenkins</b> <br/>
+		⭐️ Expert in database design, development & optimization <br/>(<b class="">PostgreSQL, MySQL, MongoDB, ScyllaDB, Apache Cassandra</b>)<br/>
+		✓ Experienced in ( <b>Grpc</b>, <b>protocol buffer</b> )<br />
 		✓ Experienced in ( <b>WebSocket, Socket.io, WebRTC</b> ) for real-time client and server
 		applications<br />
-		✓ Experienced in ( <b>Svelte.js & SvelteKit</b> ) and some knowledge in ( <b>TypeScript</b> )<br
+		✓ Experienced in ( <b class="">TailwindCSS</b>, <b>Svelte.js & SvelteKit</b> ) and some knowledge in ( <b>TypeScript</b> )<br
 		/>
-		✓ Good understanding of (<b> Docker, Kubernetes, Bash, PowerShell, Git, Nginx </b>)<br />
+		✓ Good understanding of ( <b class=""> Kubernetes, Bash, PowerShell, Git, Nginx</b> ) <br />
+		
+		
 	</p>
 	<p class="mt-5 ml-8 font-Poppins text-3xl xs:text-2xl xs:-ml-2 xs:self-center font-bold text-[#fafafa]">What I'm Doing</p>
 	<div class="flex flex-row flex-wrap justify-center gap-x-5  ">

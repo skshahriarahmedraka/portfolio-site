@@ -84,7 +84,7 @@
 					<div
 						class="font-OpenSans w-fit self-center rounded-lg bg-[#343434]  p-1 px-3 text-sm text-[#fafafa] "
 					>
-						Full-Stack Web Engineer
+						Full-Stack Software Engineer
 					</div>
 				</div>
 			</div>

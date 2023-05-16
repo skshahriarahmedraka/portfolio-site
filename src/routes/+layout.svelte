@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Loading from '$lib/loading/solarloading.svelte';
+	// import Loading from '$lib/loading/solarloading.svelte';
 	import Error from "$lib/error/error1.svelte"
 	import { afterUpdate } from 'svelte';
 	import { page } from '$app/stores';
