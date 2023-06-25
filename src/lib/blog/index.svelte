@@ -6,6 +6,8 @@
 	// const imgUrl = new URL('../lib/images/1.png', import.meta.url).href;
 	// const imgUrl = new URL('../lib/images/1.png', import.meta.url).href;
 	const b9 = new URL('../images/9.MInimize Docker Container in NodeJS.png', import.meta.url).href;
+	const b10 = new URL('../images/14.Create Random number  in Golang.png', import.meta.url).href;
+	const b11 = new URL('../images/15.Complete Guide For Using Golang Template.png', import.meta.url).href;
 	// const  b8= new URL('../images', import.meta.url).href;
 	// const  b= new URL('../images', import.meta.url).href;
 	// const  b9= new URL('../images', import.meta.url).href;
@@ -31,11 +33,33 @@
 	<div
 		class="mb-10 flex flex-row flex-wrap justify-center gap-4 sm:flex-col sm:items-center sm:justify-center md:flex-col md:items-center md:justify-center xs:flex-col xs:items-center xs:justify-center"
 	>
+
+	<!-- blog -->
+		<div
+			on:click={() => {
+				window.open('https://shahriarraka.medium.com/complete-guide-for-using-golang-template-879eb152176c', '_blank');
+			}}
+			on:keypress={()=>{}}
+			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
+		>
+			<img src={b11} alt="" class="  h-[220px]  rounded-xl  object-cover" />
+			<div class="text-[#fafafa] ">
+				<p class="ml-2 mt-2 font-Poppins text-xl font-bold">Complete Guide For Using Golang Template</p>
+				<p class=" mt-2 ml-3 font-OpenSans text-sm text-slate-400">
+					Aug 31, 2022 <Dot class="mx-1 mb-[2px]" /> 5 min read
+				</p>
+				<p class="mt-2 mb-3 ml-3 w-[90%] text-sm text-slate-300 line-clamp-2 ">
+				Package template implements data-driven templates for generating textual output.To generate HTML output, see package html/template, which has the same interface as this package but automatically secures HTML output against certain attacks. 
+				</p>
+			</div>
+		</div>
+
 		<!-- blog -->
 		<div
 			on:click={() => {
 				window.open('https://raka.hashnode.dev/minimize-docker-container-for-nodejs', '_blank');
 			}}
+			on:keypress={()=>{}}
 			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
 		>
 			<img src={b9} alt="" class="  h-[220px]  rounded-xl  object-cover" />
@@ -54,10 +78,11 @@
 		<div
 			on:click={() => {
 				window.open(
-					'https://raka.hashnode.dev/run-golang-app-in-browser-using-web-assembly',
+					'https://shahriarraka.medium.com/run-golang-app-in-browser-using-web-assembly-ba59d81a1a32',
 					'_blank'
 				);
 			}}
+			on:keypress={()=>{}}
 			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
 		>
 			<img src={b3} alt="" class="  h-[220px]  rounded-xl  object-cover" />
@@ -78,10 +103,11 @@
 		<div
 			on:click={() => {
 				window.open(
-					'https://raka.hashnode.dev/create-and-deploy-sveltekit-inside-a-nodejs-docker-container',
+					'https://shahriarraka.medium.com/create-and-deploy-sveltekit-inside-a-nodejs-docker-container-947ed23b0c66',
 					'_blank'
 				);
 			}}
+			on:keypress={()=>{}}
 			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
 		>
 			<img src={b4} alt="" class="  h-[220px]  rounded-xl  object-cover" />
@@ -102,10 +128,12 @@
 		<div
 			on:click={() => {
 				window.open(
-					'https://raka.hashnode.dev/build-minimized-docker-images-in-golang',
+					'https://shahriarraka.medium.com/build-minimized-docker-images-in-golang-58222c348e69',
 					'_blank'
 				);
 			}}
+			on:keypress={()=>{}}
+
 			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
 		>
 			<img src={b2} alt="" class="  h-[220px]  rounded-xl  object-cover" />
@@ -126,10 +154,12 @@
 		<div
 			on:click={() => {
 				window.open(
-					'https://raka.hashnode.dev/best-way-to-use-environment-variables-in-golang',
+					'https://shahriarraka.medium.com/best-ways-to-use-environment-variables-in-golang-da50959d387a',
 					'_blank'
 				);
 			}}
+			on:keypress={()=>{}}
+
 			class="mt-8 flex h-fit w-[45%] flex-col rounded-xl bg-[#202022] shadow-lg shadow-gray-600 transition-all duration-200 hover:scale-125  hover:cursor-pointer sm:w-[80%] md:w-[70%] xs:w-[90%] "
 		>
 			<img src={b1} alt="" class="  h-[220px]  rounded-xl  object-cover" />

@@ -61,6 +61,7 @@
 					</p>
 					<div class=" md:grow lg:grow xl:hidden" />
 					<div
+					on:keypress={()=>{}}
 						on:click={() => {
 							window.open(
 								'https://www.google.com/maps/place/Dhaka/@23.7806365,90.4193257,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.810332!4d90.4125181',
@@ -105,6 +106,7 @@
 							'_blank'
 						);
 					}}
+					on:keypress={()=>{}}
 					transition:slide={{ duration: 2000, easing: linear }}
 					class="group flex  h-fit w-full flex-row space-x-4  hover:cursor-pointer sm:ml-1 sm:w-fit md:ml-1 md:w-fit lg:ml-2 lg:w-fit  "
 				>
@@ -129,6 +131,8 @@
 				</div>
 				<!-- Github -->
 				<div
+
+					on:keypress={()=>{}}
 					on:click={() => {
 						window.open('https://github.com/skshahriarahmedraka', '_blank');
 					}}
@@ -155,6 +159,8 @@
 				</div>
 				<!-- Telegram -->
 				<div
+
+					on:keypress={()=>{}}
 					on:click={() => {
 						window.open('https://t.me/shahriarraka', '_blank');
 					}}
@@ -175,6 +181,7 @@
 				</div>
 				<!-- Linkedin -->
 				<div
+				on:keypress={()=>{}}
 					on:click={() => {
 						window.open('https://linkedin.com/in/shahriarraka', '_blank');
 					}}
@@ -197,6 +204,7 @@
 				</div>
 				<!-- Upwork -->
 				<div
+					on:keypress={()=>{}}
 					on:click={() => {
 						window.open('https://upwork.com/o/profiles/users/~0107ef3405bffbe57e/', '_blank');
 					}}
@@ -219,6 +227,7 @@
 				</div>
 				<!-- StackOverflow -->
 				<div
+					on:keypress={()=>{}}
 					on:click={() => {
 						window.open('https://stackoverflow.com/users/12216779/', '_blank');
 					}}
@@ -242,6 +251,7 @@
 
 				<!-- Location -->
 				<div
+					on:keypress={()=>{}}
 					on:click={() => {
 						window.open(
 							'https://www.google.com/maps/place/Dhaka/@23.7806365,90.4193257,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.810332!4d90.4125181',

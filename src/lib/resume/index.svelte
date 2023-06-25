@@ -327,7 +327,7 @@
 	>
 		<p>BSc in Computer Science And Engineering</p>
 		<p>Pabna University Of Science And Technology</p>
-		<p>March 2018 - Present Excellent Standing</p>
+		<p>March 2018 - 2023</p>
 		</div>
 	<!-- Developer Tools -->
 	<div class="mt-3 ml-2 flex flex-row">
