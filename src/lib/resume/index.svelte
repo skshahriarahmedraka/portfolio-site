@@ -16,7 +16,7 @@
 	import Download from '$lib/svgs/download2.svelte';
 	import Certificate from '$lib/svgs/certificate.svelte';
 
-	const resume = new URL('./SkShahriarAhmedRaka.pdf', import.meta.url).href;
+	const resume = new URL('./resume.pdf', import.meta.url).href;
 </script>
 
 <div class=" flex h-full w-full flex-col  ">
